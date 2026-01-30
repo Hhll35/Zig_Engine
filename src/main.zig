@@ -5,5 +5,5 @@ const Zig_Engine = @import("Zig_Engine");
 
 pub fn main() !void {
     // Prints to stderr, unbuffered, ignoring potential errors.
-    std.debug.print("Hello {s}\n", .{"world!"});
+    std.debug.print("Hello {s}\n", .{"world!!"});
 }
